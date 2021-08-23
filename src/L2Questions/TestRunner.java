@@ -10,6 +10,7 @@ public class TestRunner {
             System.out.println("2.weight based sort");
             System.out.println("3.sub string index");
             System.out.println("4.find number of grand children");
+            System.out.println("5.exit");
             int ch=sc.nextInt();
             switch (ch)
             {
@@ -40,6 +41,9 @@ public class TestRunner {
                     FatherChildTwoDimensional.findGrandChildren(name);
                 }
                 break;
+                case 5:
+                    System.exit(0);
+                    break;
 
             }
 
