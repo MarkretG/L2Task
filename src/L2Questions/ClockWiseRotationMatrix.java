@@ -16,16 +16,16 @@ public class ClockWiseRotationMatrix {
             }
         }
         int r=0,c=0;
-        for (int k=0;k<1;k++)
-        {
             for (int i=0;i<col;i++)
             {
                 for (int j=row-1;j>=0;j--)
                 {
                     mat1[r][c]=mat[j][i];
+                    c++;
                 }
+                r++;
             }
-        }
+
 
 
         for (int i=0;i<m;i++)
