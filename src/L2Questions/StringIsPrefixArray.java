@@ -1,7 +1,10 @@
+/*input: arry=["i","love","india"] str=iloveindia
+output:true
+  */
+
+
 package L2Questions;
-
 import java.util.Scanner;
-
 public class StringIsPrefixArray {
     /*private static String convertStringArrayToString(String[] str)
     {
