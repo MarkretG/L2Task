@@ -1,7 +1,10 @@
+/**
+input:iiii k=2....9999->9+9+9+9=36-->3+6=9
+output:9
+*/
+
 package L2Questions;
-
 import java.util.Scanner;
-
 public class ConvertStringToNumber {
     private static int convertStringToNumber(String str,int k)
     {
