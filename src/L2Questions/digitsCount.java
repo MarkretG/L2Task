@@ -2,10 +2,8 @@
 input:13    1-9=9...10-13=8
 Output:17
 */
-
 package L2Questions;
 import java.util.Scanner;
-
 public class digitsCount {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
